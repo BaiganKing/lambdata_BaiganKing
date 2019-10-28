@@ -23,3 +23,12 @@ def date(x, col):
             })
 
         return x.df
+
+def display(x):
+    """
+    Function to set notebook display options.
+    """
+    pd.set_option('display.max_rows', x)
+    pd.set_option('display.max_columns', x)
+
+    return
