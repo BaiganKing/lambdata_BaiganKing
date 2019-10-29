@@ -5,7 +5,6 @@ import pandas as pd
 import numpy as np
 
 
-class Functions:
     def date(x, col):
         """
         Function to split dates ("MM/DD/YYYY", etc.) into multiple columns
